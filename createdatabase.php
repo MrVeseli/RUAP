@@ -26,7 +26,7 @@
  $sql_create = "CREATE TABLE registration_tbl(id INT NOT NULL
  AUTO_INCREMENT, PRIMARY KEY(id), name VARCHAR(30), email
  VARCHAR(30), date DATE);";
- $sql_create = "INSERT into registration_tbl(1, 'antonio', 'antonio@mail.com');";
+ $sql_create = "INSERT into registration_tbl values(1, 'antonio', 'antonio@mail.com');";
  if ($conn->query($sql_create) === TRUE) {
  echo "Table registration_tbl created successfully";
  } else {
