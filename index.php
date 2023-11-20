@@ -61,7 +61,7 @@ register.</p>
 $host = "lv3veselcic1-server.mysql.database.azure.com";
 $user = "cbwosewpnu";
 $pwd = "75Z58ECX17RD21L1$";
-$db = "ruapdb";
+$db = "lv3veselcic1-server";
 // Connect to database.
 $conn = mysqli_connect($host, $user, $pwd, $db);
 if (mysqli_connect_errno())
