@@ -1,7 +1,8 @@
 <?php
- $host = "lv3veselcic1.mysql.database.azure.com";
+ $host = "lv3veselcic1-server.mysql.database.azure.com";
  $user = "cbwosewpnu";
  $pwd = "75Z58ECX17RD21L1$";
+ $db = "lv3veselcic1-database";
  // $host = "127.0.0.1:52932";
  // $user = "azure";
  // $pwd = "6#vWHD_$";
