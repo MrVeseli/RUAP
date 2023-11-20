@@ -109,7 +109,7 @@ echo "<h3>No one is currently registered.</h3>";
 }
  else
 {
-    ¸echo "Insert Failed";
+    echo "Insert Failed";
 }
 }
 ?>
